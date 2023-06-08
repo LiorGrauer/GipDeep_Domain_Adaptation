@@ -1,0 +1,19 @@
+Welcome to Eden and Lior's project!!!
+
+script folder:
+- "models.py": contains the Domain Adaptation model.
+- "models_baseline.py": contains the Baseline model.
+- "RevGrad.py" : trains the Domain Adaptation model*.
+- "RevGrad_baseline.py" : trains the Baseline model*.
+- "RevGrad_with_label.py" : trains the Domain Adaptation model with respect to the target labels (not tested)*.
+- "Auc_calculator_per_slide.py" : calculates the metrices of a model per slide.
+
+	* make sure to update within the file: 
+	1. location of the WSI folder (taken from GipDeep).
+	2. change the model name if needed.
+
+include folder:
+files from GipDeep repo. make sure that updated.
+
+models folder:
+the final models we trained and tested.
